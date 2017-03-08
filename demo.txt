@@ -1,1 +1,16 @@
 izmena
+1. to get repo from the server, type: git clone /path/to/repository
+2. add some files or make changes, then type:
+git add <filename>
+or 
+git add *
+"add" adding files to stage
+
+then type 
+git commit -m "Commit message"
+
+with this command: git push origin master
+we are sending changes to master branch
+
+to update to your local repo, type
+git pull
